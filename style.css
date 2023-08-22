@@ -308,11 +308,18 @@ h2{
   border: none;
   padding: 5px 10px;
   cursor: pointer;
-  transition: background-color 0.2s, color 0.2s;
+  box-shadow: 0 4px #6666;
+  border-radius: 20px;
 }
 
 .copy-button:hover {
-  background-color: #333;
+  background-color: #555;
+  box-shadow: 0 4px #6666;
+  
+}
+.copy-button:active {
+  background-color: #555;
+  box-shadow: 0 3px #6666;
 }
 .bgs div {
   margin: 10px;
