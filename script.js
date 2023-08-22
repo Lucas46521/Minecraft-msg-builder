@@ -97,7 +97,7 @@ $('.copy-button').click(function() {
     textarea.placeholder = 'Escreva algo antes de copiar';
     setTimeout(function() {
       textarea.placeholder = ''; // Limpa o placeholder após alguns segundos
-    }, 1000); // Defina o tempo em milissegundos (3 segundos neste exemplo)
+    }, 2000); // Defina o tempo em milissegundos (3 segundos neste exemplo)
     return; // Não continua para a cópia se não houver texto
   }
 
