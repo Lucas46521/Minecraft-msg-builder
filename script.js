@@ -46,6 +46,7 @@ right = htmlEncode(">");
 text = text.replace(/</gi, left);  
 text = text.replace(/>/gi, right);
 text = text.replace(/\n/gi, "&r<br />");
+
 //colours
 text = text.replace(/&0/gi,'</span>&r<span class="c-1">');
 text = text.replace(/&1/gi,'</span>&r<span class="c-2">');
