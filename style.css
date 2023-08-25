@@ -77,6 +77,11 @@ textarea {
   background: url(https://s-media-cache-ak0.pinimg.com/originals/0e/1f/c2/0e1fc2e0638e878d3ba8db495152164c.jpg);
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+  white-space: pre-wrap; 
+  word-wrap: break-word;
+  resize: vertical;
+  overflow-y: auto;
+  
 }
 h2{
     font-size: 2em;
